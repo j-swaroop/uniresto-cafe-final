@@ -100,7 +100,7 @@ class Home extends Component {
     const {cartDishes} = this.state
     return (
       <>
-        <Header cartDishes={cartDishes} />
+        <Header />
         <div className="home-container">
           <div className="home-responsive-container">
             {this.renderContent()}

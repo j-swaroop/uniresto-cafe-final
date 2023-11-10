@@ -1,5 +1,9 @@
 .header-container {
   height: 10vh;
+  background-image: linear-gradient(to right, #ffffff, rgb(251, 173, 149));
+  display: flex;
+  margin: auto;
+ 
 }
 .header-responsive-container {
   display: flex;
@@ -12,8 +16,8 @@
   font-family: 'Roboto';
   font-size: 26px;
 }
-@media (max-width: 576px){
-  .restaurent-heading{
+@media (max-width: 576px) {
+  .restaurent-heading {
     font-size: 20px;
   }
 }
@@ -35,7 +39,7 @@
 .cart-dishes {
   color: #ffffff;
   font-family: 'Roboto';
-  background-color: rgb(255, 102, 0);
+  background-color: black;
   margin-bottom: 20px;
   text-align: center;
   border-radius: 20px;
@@ -43,4 +47,31 @@
   font-size: 14px;
   height: 20px;
   width: 20px;
+}
+.nav-link {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+.nav-link-cart {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.logout-btn {
+  color: rgb(245, 238, 238);
+  font-family: 'Roboto';
+  border: none;
+  cursor: pointer;
+  background-color: rgb(6, 8, 16);
+  margin-left: 15px;
+  height: 30px;
+  width: 60px;
+  border-radius: 6px;
 }

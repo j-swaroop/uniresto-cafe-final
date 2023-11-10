@@ -64,7 +64,6 @@
   .dish-description {
     font-size: 13px;
     width: 70%;
-    margin-bottom: 0;
   }
   .dish-type-img {
     height: 25px;
@@ -83,17 +82,17 @@
   border-bottom-right-radius: 16px;
   border-top-right-radius: 16px;
 }
-.add-btn {
+.add-to-cart-btn {
   background-color: green;
   color: aliceblue;
   border: none;
-  font-size: 16px;
   height: 34px;
-  width: 40px;
+  border-radius: 6px;
   cursor: pointer;
   text-align: center;
   font-weight: 500;
-  padding-top: 4px;
+  margin-bottom: 5px;
+  font-size: 12px;
 }
 .minus-btn {
   background-color: green;

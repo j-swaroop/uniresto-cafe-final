@@ -43,16 +43,12 @@ class DishItem extends Component {
 
     const renderDishAvailabilityOrNot = details.dish_Availability ? (
       <div className="buttons-container">
-        <button className="minus-btn" type="button" onClick={this.onRemoveDish}>
-          {' '}
-          -{' '}
-        </button>
-
-        <p className="add-btn"> {itemCount} </p>
-
-        <button className="plus-btn" type="button" onClick={this.onAddDish}>
-          {' '}
-          +{' '}
+        <button
+          className="add-to-cart-btn"
+          type="button"
+          onClick={this.onAddDish}
+        >
+          ADD TO CART
         </button>
       </div>
     ) : (
